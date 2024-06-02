@@ -35,7 +35,6 @@ A little intro about the installation.
 ```bash
 git clone git@github.com:EpitechPromo2027/B-CNA-410-BDX-4-1-trade-matheo.piques.git
 cd ./B-CNA-410-BDX-4-1-trade-matheo.piques.git
-./start.sh
 ```
 
 ### Overview

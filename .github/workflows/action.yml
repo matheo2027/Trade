@@ -9,33 +9,6 @@ on:
       - "ga-ignore-*"
 
 jobs:
-  # check_program_compilation:
-    # name: check_program_compilation
-    # runs-on: ubuntu-latest
-    # timeout-minutes: 2
-    # steps:
-      # - name: Checkout GH repository
-        # uses: actions/checkout@v4
-        # with:
-          # repository: ""
-#
-      # - name: Compile project
-        # run: cmake -S . -B build
-#
-      # - name: Build project
-        # run: cmake --build build -- -j $(nproc --all)
-#
-      # - name: Clean project
-        # run: make clean
-#
-      # - name: Check executables
-        # run: |
-          # for file in ${{ vars.EXECUTABLES }}; do
-            # if [ ! -x "./${file}" ]; then
-                # echo "File $file does not exist or is not executable"
-                # exit 1
-            # fi
-          # done
 
   push_to_mirror:
     name: push_to_mirror
