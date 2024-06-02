@@ -25,7 +25,7 @@ You are to create a trading bot that will bring about a revolution of the trade 
 ***
 A list of technologies used within the project:
 
-* [PYTHON](https://www.python.org/): latest available
+* [JAVASCRIPT](https://developer.mozilla.org/fr/docs/Web/JavaScript): latest available
 
 ### Installation
 
